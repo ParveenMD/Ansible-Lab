@@ -1,0 +1,8 @@
+---
+ - hosts: localhost
+   become: yes
+   tasks:
+      - name: appending data
+        lineinfile:
+          path: /root/parveen/a.yml
+          line: Good afternoon everyone

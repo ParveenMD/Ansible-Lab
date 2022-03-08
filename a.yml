@@ -1,0 +1,10 @@
+---
+- hosts: localhost
+  become: no
+  gather_facts: yes
+
+  tasks:
+   - name: Diplay a date in YYYY-MM-DD
+     debug:
+      var=ansible_date_time.date
+Good afternoon everyone
