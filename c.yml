@@ -1,0 +1,14 @@
+---
+  - name: installing httpd server
+    hosts: managednode1
+    become: yes
+    
+    tasks:
+      - block: 
+         - name: copy yml to other source
+           copy: 
+             src: /root/parveen/date.txt
+             dest: /root/   
+
+         
+
