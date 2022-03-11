@@ -1,6 +1,0 @@
----
- - hosts: localhost
-   become: yes
-   tasks:
-    - name: creating a new file using ansible
-      file: path=/tmp/dir.yml state=touch
