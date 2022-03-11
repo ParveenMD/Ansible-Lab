@@ -1,8 +1,0 @@
----
- - name: installing httpd server 
-   hosts: localhost
-   tasks:
-    - name: httpd server installation
-      yum: 
-       name: httpd
-       state: present
