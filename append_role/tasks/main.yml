@@ -1,0 +1,6 @@
+---
+# tasks file for append_role
+ - name: appending data
+   lineinfile:
+    path: /root/parveen/date.yml
+    line: Good afternoon everyone

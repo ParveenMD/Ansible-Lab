@@ -1,0 +1,4 @@
+---
+# tasks file for dir_role
+ - name: creating a directory using ansible playbook
+   file: path=/temp/testdir state=directory

@@ -1,0 +1,5 @@
+---
+# tasks file for date_role
+- name: Display date in ansible
+  debug:
+    var=ansible_date_time.date

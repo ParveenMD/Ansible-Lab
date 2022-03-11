@@ -1,0 +1,6 @@
+---
+ - hosts: localhost
+   become: yes
+   tasks:         
+    - name: creating a directory using ansible playbook
+      file: path=/temp/testdir state=directory

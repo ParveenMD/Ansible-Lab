@@ -1,0 +1,5 @@
+---
+- name: Diskutilization
+  hosts: localhost
+  roles:
+  - disk_role

@@ -1,0 +1,7 @@
+---
+# tasks file for disk_role
+ - name: disk usage
+   command: df -h
+   register: space
+ - debug:
+     var: space.stdout_lines

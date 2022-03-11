@@ -1,0 +1,6 @@
+---
+ - hosts: all
+   become: no
+   gather_facts: yes
+   roles:
+   - block_role

@@ -1,0 +1,10 @@
+---
+- name: Diskutilization
+  hosts: localhost
+  tasks:
+    - name: disk usage
+      command: df -h
+      register: space
+    - debug:
+        var: space.stdout_lines
+    

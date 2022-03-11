@@ -1,0 +1,4 @@
+---
+# tasks file for newfile_role
+ - name: creating a new file using ansible
+   file: path=/tmp/dir.yml state=touch

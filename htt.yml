@@ -1,0 +1,5 @@
+---
+ - name: installing httpd server 
+   hosts: localhost
+   roles:
+   - httpd_role
